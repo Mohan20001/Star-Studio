@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR STUDIO</title>
+
+    <!-- bootsrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- local styles -->
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <!-- local scripts -->
+    <script src="./scripts/index.js"></script>
+
+    <!-- animation library -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
+    <!-- smtp server -->
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <nav class="w-100 fixed-top navbar navbar-expand-lg navbar-light bg-light d-flex flex-row pl-lg-5 pr-lg-5">
+        <a class="navbar-brand logo" href="#">STAR STUDIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#About">About Us</a>
+            <a class="nav-link" href="#Gallary">Gallary</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
+     <div class="wr w-100">
+      <div class="row">
+        <div id="Home" class="video_layer d-flex col-12">
+          <div data-aos="fade-up" class="hero-description p-5">
+            <h5 class="">Radha Krishna</h5>
+            <p class=""> - Photographer</p>
+          </div>
+          <video class="hero-video w-100" muted loop preload="auto" autoplay src="./videos/weddingvid.mp4"></video>
+          <!-- <img class="w-100 hero-img" src="./images/heroweddingimg.jpg" alt="wedding image"> -->
+        </div>
+      </div>
+    
+    <div id="About" class="about-section row d-flex flex-row p-5">
+        <div class="col-lg-4 col-md-5 col-sm-12 pt-sm-3 pt-md-5 d-flex flex-column justify-content-center align-items-center">
+         <img id="img" data-aos="fade-right" class="w-100 Photographer-img" src="./images/krishna.jpeg" alt="" srcset="">
+         <!-- <img id="krish" class="w-100 Photographer-img animate__animated animate__fadeInLeft animate__slow animate__delay-2s" src="./images/krishna.jpeg" alt="" srcset=""> -->
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 pt-md-5 pt-sm-3 d-flex flex-column align-items-center justify-content-center pt-5">
+         <p data-aos="fade-left" class=""><b>Star Studio</b> has proudly been offering exceptional photo and video services for weddings and auspicious occasions for over 35 years. Our expertise lies in capturing the essence of your special moments, be it at your preferred venue or within the comfort of your home. Utilizing state-of-the-art cameras and equipment, we ensure seamless coverage, from pre-wedding preparations to post-wedding celebrations. Our comprehensive services encompass pre-wedding and post-wedding songs, live LED TV streaming, internet live streaming, cinematic videos, and drone photography.</p>
+         <p data-aos="fade-left" class="animate__animated animate__fadeInRight animate__slow para">At Star Studio, we are committed to delivering unparalleled quality and preserving your cherished memories for a lifetime. Allow us to extend our professional services to make your wedding moments truly unforgettable.</p>
+       </div>
+    </div>
+    <div id="Gallary" class="row d-flex flex-row p-5">
+       <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
+       <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
+       <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
+       <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
+       <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
+       <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
+       <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div> 
+    </div>
+    <div class="row p-5">
+       <div class="col-lg-7">
+         <h1>send us a message</h1>
+         <p>feel free!</p>
+         <form class="row" action="" method="post">
+            <div class="col-lg-6 col-sm-12 row d-flex flex-row justify-content-space-around">
+              <label class="col-12" for="name">Your Name</label>
+              <input class="col-12 p-2 ename" name="name" type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="col-lg-6 col-sm-12 ml-lg-2 row">
+             <label class="col-12" for="Email">Your Email</label>
+              <input class="col-12 p-2 Email" name="Email" type="text" placeholder="Enter Your Email">
+            </div>
+            <div class="col-12 row">
+             <label class="col-12" for="inf">Your Name</label>
+             <textarea class="col-12 p-2 esms" name="inf" id="" cols="15" rows="3" placeholder="Enter Message"></textarea>
+             <!-- <input class="inf-text" type="text" name="inf"  autocomplete="off"> -->
+            </div>
+            <input onclick="sendMail()" class="btn btn-primary mt-3 fixed-end" type="button" value="Submit">
+         </form>
+       </div>
+       <div class="col-lg-5 bg-dark sec-add"></div>
+    </div>
+     </div>
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>
