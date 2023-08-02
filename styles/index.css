@@ -73,3 +73,9 @@ input, textarea{
     background-size: 100% auto;
     background-position: center;
 }
+
+@media (max-width:768px ) {
+    .video_layer{
+        display: none;
+    }
+}
