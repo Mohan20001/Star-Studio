@@ -104,7 +104,7 @@ input:focus{
 }
 
 @media (max-width: 768px){
-   .hero-img, .hero-video2{
+   .hero-video2{
     display: flex;
    }
     .hero-video{
