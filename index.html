@@ -38,23 +38,24 @@
             <a class="nav-link active" href="#Home">Home <span class="sr-only">(current)</span></a>
             <a class="nav-link" href="#About">About Us</a>
             <a class="nav-link" href="#Gallary">Gallary</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#Contact">Contact</a>
           </div>
         </div>
       </nav>
      <div class="wr w-100">
-      <div class="row">
+      <div class="row wrc-0">
         <div id="Home" class="video_layer d-flex col-12">
           <div data-aos="fade-up" class="hero-description p-5">
             <h5 class="">Radha Krishna</h5>
             <p class=""> - Photographer</p>
           </div>
+          <video class="hero-video2 w-100" muted loop preload="auto" autoplay src="./videos/weddingmob.mp4"></video>
           <video class="hero-video w-100" muted loop preload="auto" autoplay src="./videos/weddingvid.mp4"></video>
           <!-- <img class="w-100 hero-img" src="./images/heroweddingimg.jpg" alt="wedding image"> -->
         </div>
       </div>
     
-    <div id="About" class="about-section row d-flex flex-row p-lg-5 p-md-4 p-sm-3">
+    <div id="About" class="about-section wrc wrc-1 row d-flex flex-row p-lg-5 p-md-4 p-sm-3">
         <div class="col-lg-4 col-md-5 col-sm-12 pt-sm-3 pt-md-5 d-flex flex-column justify-content-center align-items-center">
          <img id="img" data-aos="fade-right" class="w-100 Photographer-img" src="./images/krishna.jpeg" alt="" srcset="">
          <!-- <img id="krish" class="w-100 Photographer-img animate__animated animate__fadeInLeft animate__slow animate__delay-2s" src="./images/krishna.jpeg" alt="" srcset=""> -->
@@ -64,7 +65,7 @@
          <p data-aos="fade-left" class="animate__animated animate__fadeInRight animate__slow para">At Star Studio, we are committed to delivering unparalleled quality and preserving your cherished memories for a lifetime. Allow us to extend our professional services to make your wedding moments truly unforgettable.</p>
        </div>
     </div>
-    <div id="Gallary" class="row d-flex flex-row p-lg-5 p-md-4 p-sm-3">
+    <div id="Gallary" class="row wrc wrc-2 d-flex flex-row p-lg-5 p-md-4 p-sm-3">
        <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
        <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
        <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
@@ -73,20 +74,20 @@
        <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div>
        <div data-aos="zoom-in" class="col-lg-3 col-md-4 col-sm-6 mb-3"><img class="w-100" src="./images/heroweddingimg.jpg" alt="" /></div> 
     </div>
-    <div class="row p-lg-5 p-md-4 p-sm-3">
+    <div id="Contact" class="row wrc wrc-3 p-lg-5 p-md-4 p-sm-3">
        <div class="col-lg-7">
          <h1>send us a message</h1>
          <p>feel free!</p>
          <form class="row" action="" method="post">
-            <div class="col-lg-6 col-sm-12 row d-flex flex-row justify-content-space-around">
+            <div class="col-lg-6 col-sm-12 inp-0 row d-flex flex-row justify-content-space-around">
               <label class="col-12" for="name">Your Name</label>
               <input class="col-12 p-2 ename" name="name" type="text" placeholder="Enter Your Name">
             </div>
-            <div class="col-lg-6 col-sm-12 ml-lg-2 row">
+            <div class="col-lg-6 col-sm-12 ml-lg-2 inp-1 row">
              <label class="col-12" for="Email">Your Email</label>
-              <input class="col-12 p-2 Email" name="Email" type="text" placeholder="Enter Your Email">
+              <input class="col-12 p-2 Email" name="Email" type="email" placeholder="Enter Your Email">
             </div>
-            <div class="col-12 row">
+            <div class="col-12 row inp-2">
              <label class="col-12" for="inf">Your Name</label>
              <textarea class="col-12 p-2 esms" name="inf" id="" cols="15" rows="3" placeholder="Enter Message"></textarea>
              <!-- <input class="inf-text" type="text" name="inf"  autocomplete="off"> -->
@@ -94,7 +95,7 @@
             <input onclick="sendMail()" class="btn btn-primary mt-3 fixed-end" type="button" value="Submit">
          </form>
        </div>
-       <div class="col-lg-5 bg-dark sec-add"></div>
+       <div class="wrc wrc-4 col-lg-5 bg-dark sec-add"></div>
     </div>
      </div>
       <script>

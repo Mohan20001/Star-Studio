@@ -74,8 +74,49 @@ input, textarea{
     background-position: center;
 }
 
-@media (max-width:768px ) {
-    .video_layer{
+input, textarea{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.hero-img, .hero-video2{
+    display: none;
+}
+
+#Contact{
+    text-transform: initial;
+}
+
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width: 768px){
+   .hero-img, .hero-video2{
+    display: flex;
+   }
+    .hero-video{
         display: none;
+    }
+    .wrc{
+        padding: 12px;
+    }
+   
+    .wrc-0{
+        margin-bottom: 60px;
+    }
+
+    .wrc-1, .wrc-2, .wrc-3, .wrc-4{
+        margin-top: 60px ;
+        margin-bottom: 60px;
+    }
+
+    .inp-0, .inp-1, .inp-2{
+        margin-top: 12px;
     }
 }
