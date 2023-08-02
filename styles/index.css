@@ -98,9 +98,6 @@ input:focus{
     text-transform: initial;
 }
 
-.wrc-2{
-    background: #eee;
-}
 
 @media (max-width: 768px){
     
